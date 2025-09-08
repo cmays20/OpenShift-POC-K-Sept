@@ -25,7 +25,7 @@ patches:
     patch: |-
       - op: replace
         path: /spec/hostname/hostname
-        value: 'https://keycloak.apps.mays-demo.sandbox807.opentlc.com'
+        value: 'keycloak.apps.mays-demo.sandbox807.opentlc.com'
   - target:
       group: console.openshift.io
       version: v1
