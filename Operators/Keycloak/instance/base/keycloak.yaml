@@ -19,6 +19,6 @@ spec:
   http:
     tlsSecret: keycloak-certs-letsencrypt
   hostname:
-    hostname: test.keycloak.org
+    hostname: https://test.keycloak.org
   ingress:
     className: openshift-default
