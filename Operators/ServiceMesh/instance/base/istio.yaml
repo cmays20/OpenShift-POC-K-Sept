@@ -2,6 +2,8 @@ apiVersion: sailoperator.io/v1
 kind: Istio
 metadata:
   name: default
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   namespace: istio-system
   updateStrategy:
